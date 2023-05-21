@@ -1,0 +1,12 @@
+.our-text span{
+	color: red;
+
+}
+.our-section{
+	background: #bdc3c7;
+	padding: 100px 0;
+}
+img{
+	max-width:100%;
+	height: auto;
+}

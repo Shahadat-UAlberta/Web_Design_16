@@ -1,0 +1,20 @@
+.my-text{
+	margin-top: 50px;
+}
+.my-table{
+	margin-top: 70px;
+}
+.my-form{
+	width: 50%;
+	margin: 50px auto;
+}
+.my-form label{
+	margin-bottom: 10px;
+}
+.my-form button{
+	padding: 5px 25px;
+	margin-top: 20px;
+}
+img{
+	width: 100%;
+}

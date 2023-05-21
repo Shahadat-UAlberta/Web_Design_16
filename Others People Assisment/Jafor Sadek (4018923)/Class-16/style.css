@@ -1,0 +1,146 @@
+/*==================================================
+		      Google Fonts
+  ==================================================*/
+  @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&family=Tourney&display=swap');
+
+/*==================================================
+		      General CSS
+  ==================================================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	font-family: 'STIX Two Math', serif;
+}
+
+
+/*=================================================
+			Header CSS
+  =================================================*/
+
+  header{
+  	background: #ecf0f1;
+  }
+.header-left h3{
+	font-family: 'Tourney', cursive;
+}
+.header-left h3:hover{
+	background: #26f069;
+	cursor: pointer;
+}
+  .main-menu ul{
+  	display: flex;
+  	justify-content: center;
+  }
+
+.main-menu ul li{
+	margin: 10px;
+}
+
+.main-menu ul li a{
+	font-size: 20px;
+	color: #2c3e50;
+}
+
+.main-menu ul li a:hover{
+	background: #26f069;
+	cursor: pointer;
+}
+
+/*=================================================
+			            Body CSS
+  =================================================*/
+  .section-body{
+  	margin-top: 100px;
+  }
+
+ .text-style{
+  	color: #fa4002;
+  }
+
+  .table-area{
+  	margin-top: 100px;
+  }
+
+  .table-area h3{
+  	text-align: center;
+  	margin-bottom: 20px;
+  	color: #fa4002;
+  }
+
+.form-area{
+	width: 60%;
+	margin: 0 auto;
+}
+
+#text-form{
+	margin: 20px 0;
+	text-align: center;
+	color: #fa4002;
+}
+
+.form-button input:hover{
+	background: #b0a990;
+}
+
+.card-area{
+	margin: 100px 0;
+}
+
+.card-area h3{
+	margin: 50px 0;
+	color: #fa4002;
+}
+.card-area h5{
+	font-size: 20px;
+	font-family: 'Tourney', cursive;
+}
+
+.card-area a:hover{
+	background: #b0a990;
+}
+
+/*=================================================
+			            Footer CSS
+  =================================================*/
+
+  footer{
+  	padding: 15px;
+  	background: #34495e;
+  	text-align: center;
+  	font-size: 20px;
+  }
+
+footer p{
+	color: #fff;
+}
+
+/*=================================================
+			            Responsive CSS
+  =================================================*/
+
+@media (max-width: 991px){
+	.card-1{
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 576px){
+	.card-2{
+		margin-bottom: 50px;
+	}
+
+	.card-3{
+		margin-bottom: 50px;
+	}
+}
